@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay Đổi Màu Nền</title>
+    <script>
+        function changeBackgroundColor() {
+            var colors = ["#ff5733", "#33ff57", "#3357ff", "#ff33a1", "#ffff33", "#33fff" ];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</head>
+<body>
+    <h1>Nhấn nút để thay đổi màu nền trang</h1>
+    <button onclick="changeBackgroundColor()">Thay đổi màu</button>
+</body>
+</html>

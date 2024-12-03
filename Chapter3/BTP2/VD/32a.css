@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+    align-items: stretch;
+}
+
+.row .label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .cot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A{
+    flex-basis: 30%;
+    background-color: rgb(247, 130, 46);
+}
+.B{
+    flex-basis: 400%;
+    background-color: rgb(242, 187, 50);
+}
+
+.C{
+    flex-basis: 20%;
+    background-color: rgb(143, 20, 177);
+}
+.D{
+    flex-basis: 10%;
+    background-color: rgb(20, 177, 135);
+}

@@ -1,0 +1,44 @@
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkblue;
+    height: 50px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 30%;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.kl{
+    width: 50px;
+}
+input{
+    height: 50px;
+    width: 60%;
+    border: 0px solid;
+}
+button{
+    width: 100px;
+    height: 56px;
+    background-color: blue;
+    /* border-radius: 10%; */
+    color: white;
+    width: 30%;
+}
+.a1{
+    width: 400px;
+    height: 300px;
+}

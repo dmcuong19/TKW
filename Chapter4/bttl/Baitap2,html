@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thay Đổi Màu Sắc Đoạn Văn</title>
+    <style>
+        #text {
+            font-size: 24px;
+            transition: color 1s; 
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var colors = ["red"];
+            var textElement = document.getElementById("text"); 
+            var index = 0;
+
+            setInterval(function() {
+                textElement.style.color = colors[index]; 
+                index = (index + 1) % colors.length; 
+            }, 1000); 
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Chào Mừng Đến Với Trang Web Của Chúng Tôi!</h1>
+    <p id="text">Đoạn văn này sẽ tự động thay đổi màu sắc.</p>
+</body>
+
+</html>

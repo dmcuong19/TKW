@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Di chuyển văn bản</title>
+    <style>
+        .text-container {
+            width: 100%;
+            margin: 50px auto;
+            font-size: 24px;
+            font-weight: bold;
+            transition: text-align 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="textContainer" class="text-container" style="text-align: left;">
+        Em
+    </div>
+
+    <script>
+        function moveText(direction) {
+            const textContainer = document.getElementById('textContainer');
+            if (direction === 'right') {
+                textContainer.style.textAlign = 'right';
+            } else if (direction === 'left') {
+                textContainer.style.textAlign = 'left';
+            }
+        }
+        const textContainer = document.getElementById('textContainer');
+        textContainer.addEventListener('mouseover', () => moveText('right'));
+        textContainer.addEventListener('mouseout', () => moveText('left')); 
+    </script>
+</body>
+
+</html>

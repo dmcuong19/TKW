@@ -1,0 +1,27 @@
+.row{
+    display: flex;
+    align-items: stretch;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.a{
+    flex-basis: 35%;
+    background-color: rgb(247, 93, 46);
+}
+.b{
+    flex-basis: 20%;
+    background-color: rgb(247, 93, 46);
+}
+.c{
+    flex-basis: 20%;
+    background-color: rgb(247, 93, 46);
+}
+.d{
+    flex-basis: 25%;
+    background-color: rgb(247, 93, 46);
+}

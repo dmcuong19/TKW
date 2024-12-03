@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'i1 i1'
+      'i2 i3'
+      'i4 i4';
+      grid-template-columns: 1fr 300px;
+      grid-template-rows: 50px 200px 50px;
+      gap : 20px
+    }
+
+.i1{
+    background-color: pink;
+    grid-area: i1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i2{
+    background-color:  yellow;
+    grid-area: i2;
+}
+.i3{
+    background-color: blue;
+    grid-area: i3;
+}
+.i4{
+    background-color: greenyellow;
+    grid-area: i4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+    .i2 , .i3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

@@ -1,0 +1,31 @@
+.flex-container{
+    background-color: aqua;
+    color: blue;   
+}
+.box {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 0px ) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 768px ) {
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1024px ) {
+    .flex-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

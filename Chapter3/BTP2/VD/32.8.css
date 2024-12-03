@@ -1,0 +1,75 @@
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    color: white;
+}
+.td{
+    text-align: center;
+    color: white;
+    height: 150px;
+    background-color: blue;
+}
+h2{
+    padding-top: 50px;
+}
+.box {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+.tdt{
+    text-align: center;
+    margin: 10px;
+}
+.than{
+    display: flex;
+    flex-direction: row;
+}
+.than1{
+    width: 30%;
+    background-color: rgb(241, 238, 238);
+}
+.than2{
+    width: 70%;
+}
+.anh1{
+    width: 100%;
+    height: 200px;
+}
+.anh{
+    width: 100%;
+    height: 50px;
+}
+.footer{
+    text-align: center;
+    color: black;
+    height: 80px;
+    background-color: rgb(255, 98, 0);
+    font-weight: 600;
+}
+.can{
+    margin: 20px 20px 20px 20px;
+}
+.cangiua{
+    padding: 35px;
+}
+@media only screen and (max-width: 768px ) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .than{
+        display: flex;
+        flex-direction: column;
+    }
+    .than1{
+        width: 100%;
+    }
+    .than2{
+        width: 100%;
+    }
+}

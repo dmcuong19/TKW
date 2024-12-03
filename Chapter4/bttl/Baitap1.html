@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển Thị Ngày Giờ</title>
+    <script>
+        window.onload = function() {
+            var now = new Date(); 
+            var day = now.getDate(); 
+            var month = now.getMonth() + 1; 
+            var year = now.getFullYear(); 
+
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+
+            if (day < 10) day = "0" + day;
+            if (month < 10) month = "0" + month;
+            if (hours < 10) hours = "0" + hours;
+            if (minutes < 10) minutes = "0" + minutes;
+            if (seconds < 10) seconds = "0" + seconds;
+
+            var datetime = "Hôm nay là " + day + "/" + month + "/" + year + " - " + hours + ":" + minutes + ":" + seconds;
+            document.getElementById("datetime").innerHTML = datetime;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Chào Mừng Bạn Đến Với Trang Web Của Chúng Tôi</h1>
+    <p id="datetime"></p>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.gia {
+    font-size: 1.2em;
+}
+.doanhso {
+    opacity: 0.8;
+    font-size:15px;
+}
+.giamgia {
+    opacity: 0.8;
+    font-size:15px;
+}
+.hinh{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block; }
+.chu{
+    font-size: 5vw;
+    text-align: center; }
+.container {
+        display: flex;
+        padding: 20px;
+    }
+    
+.title1, .title2 {
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px 0px, rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #fff;
+        margin-right: 20px;
+        min-width: 250px;
+    }
+    
+.title1 img, .title2 img {
+        margin-right: 10px;
+    }
+    
+span {
+        font-size: 1.2em;
+        font-weight: bold;
+    }

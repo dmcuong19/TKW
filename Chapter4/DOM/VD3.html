@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFunction(){
+            var x = document.getElementByTagName("Tea");
+            document.getElementById("demo").innerHTML = x[1].innerHTML;
+        }
+    </script>
+</head>
+<body>
+    <p>thực đơn</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+
+    </ul>
+    <button onclick="myFunction()"> Click</button>
+    <p id="demo"></p>
+    
+</body>
+</html>

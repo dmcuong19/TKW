@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    align-items: stretch;
+}
+
+.row .label{
+    flex: 0 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row .cot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    flex-basis: 35%;
+    background-color: rgb(247, 130, 46);
+}
+.two{
+    flex-basis: 50%;
+    background-color: rgb(242, 187, 50);
+}
+
+.three{
+    flex-basis: 15%;
+    background-color: rgb(143, 20, 177);
+}
